@@ -14,6 +14,7 @@ const Landing = ({ setSelectedPage }) => {
             id="home"
             className="md:flex md:justify-between md:items-center gap-16 md:h-full py-10"
         >
+
             {/* Imagem do lado direito */}
             <div className="basis-3/5 z-10 mt-16 md:mt-32 flex justify-center md:order-2">
                 {/* Estiliza a imagem de acordo com o tamanho da tela */}
@@ -39,6 +40,7 @@ const Landing = ({ setSelectedPage }) => {
 
             {/* Texto principal, do lado esquerdo */}
             <div className="z-30 basis-2/5 mt-12 md:mt-32">
+                
                 {/* Cabeçalho */}
                 <motion.div
                     initial="hidden"
@@ -114,7 +116,9 @@ const Landing = ({ setSelectedPage }) => {
                 >
                     <SocialMediaIcons />
                 </motion.div>
+
             </div>
+
         </section>
   );
 };
