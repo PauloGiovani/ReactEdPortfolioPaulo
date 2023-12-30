@@ -48,7 +48,7 @@ function App() {
             />
 
             {/* Conteúdo principal */}
-            <div className="w-5/6 mx-auto md:h-full">
+            <div className="w-5/6 mx-auto md:h-full mb-20">
                 {/* Menu de navegação do lado direito -> DOTS */}
                 {isAboveMediumScreens && (
                     <DotGroup 
@@ -64,7 +64,7 @@ function App() {
             <LineGradient />
 
             {/* Skills Section */}
-            <div className="w-5/6 mx-auto md:h-full">
+            <div className="w-5/6 mx-auto md:h-full mb-20">
                 <MySkills />
             </div>
 
@@ -72,7 +72,7 @@ function App() {
             <LineGradient />
 
             {/* Projects Section */}
-            <div className="w-5/6 mx-auto">
+            <div className="w-5/6 mx-auto mb-20">
                 <Projects />
             </div>
 
@@ -80,7 +80,7 @@ function App() {
             <LineGradient />
 
             {/* Testimonials Section */}
-            <div className="w-5/6 mx-auto md:h-full mb-20">
+            <div className="w-5/6 mx-auto md:h-full mb-40">
                 <Testimonials />
             </div>
 
@@ -96,7 +96,7 @@ function App() {
             <LineGradient />
 
             {/* Footer Section */}
-            <div className="w-5/6 mx-auto md:h-full">
+            <div className="mx-auto pb-2">
                 <Footer />
             </div>
 
