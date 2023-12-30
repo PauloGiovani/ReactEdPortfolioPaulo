@@ -2,6 +2,7 @@ import LineGradient from "../components/LineGradient";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 
+// MySkills page section
 const MySkills = () => {
 
     // Media Query para telas maiores
