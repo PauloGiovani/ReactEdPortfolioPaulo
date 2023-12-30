@@ -4,6 +4,7 @@
 
 - [Tailwind Css](https://tailwindcss.com/docs/installation)
 - [Form Submit](https://formsubmit.co/)
+- [React Hook Form](https://react-hook-form.com/)
 - [React Anchor](https://github.com/mauricevancooten/react-anchor-link-smooth-scroll)
 - [Framer Motion](https://www.framer.com/docs/)
 - [Google Fonts](https://fonts.google.com/)
