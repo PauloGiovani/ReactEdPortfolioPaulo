@@ -80,7 +80,7 @@ function App() {
             <LineGradient />
 
             {/* Testimonials Section */}
-            <div className="w-5/6 mx-auto md:h-full">
+            <div className="w-5/6 mx-auto md:h-full mb-20">
                 <Testimonials />
             </div>
 

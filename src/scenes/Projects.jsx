@@ -43,11 +43,11 @@ const Project = ({ title }) => {
 const Projects = () => {
 
     return (
-        <section id="projects" className="pt-48 pb-48">
+        <section id="projects" className="pt-32 pb-8">
 
             {/* Cabeçalho */}
             <motion.div
-                className="md:w-2/5 mx-auto text-center"
+                className="md:w-2/4 mx-auto text-center"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.5 }}
@@ -62,7 +62,7 @@ const Projects = () => {
                         <span className="text-red">PRO</span>JECTS
                     </p>
                     <div className="flex justify-center mt-5">
-                        <LineGradient width="w-2/3" />
+                        <LineGradient width="w-1/3" />
                     </div>
                 </div>
                 <p className="mt-10 mb-10">
@@ -76,10 +76,10 @@ const Projects = () => {
             <div className="flex justify-center">
                 <motion.div
                     className="sm:grid sm:grid-cols-3"
-                    variants={container}
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{ once: true, amount: 0.2 }}
+                    viewport={{ once: true, amount: 0.5 }}
+                    variants={container}
                 >
 
                     {/* Linha 1 */}

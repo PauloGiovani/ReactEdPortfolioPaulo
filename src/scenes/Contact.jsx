@@ -22,7 +22,7 @@ const Contact = () => {
     };
 
     return (
-        <section id="contact" className="contact py-48">
+        <section id="contact" className="contact py-32">
 
             {/* Cabeçalho */}
             <motion.div
@@ -80,7 +80,7 @@ const Contact = () => {
                     <form
                         target="_blank"
                         onSubmit={onSubmit}
-                        action="https://formsubmit.co/e8a5bdfa807605332f809e5656e27c6e"
+                        action="https://formsubmit.co/c9abb808f9fef4e5ad285395a6a3691e"
                         method="POST"
                     >
 
